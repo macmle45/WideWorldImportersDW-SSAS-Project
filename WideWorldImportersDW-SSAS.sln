@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WideWorldImportersDW-SSAS", "WideWorldImportersDW-SSAS\WideWorldImportersDW-SSAS.dwproj", "{726C0CE8-C8E7-4739-9399-4BB80C3EB8ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{726C0CE8-C8E7-4739-9399-4BB80C3EB8ED}.Development|Default.ActiveCfg = Development
+		{726C0CE8-C8E7-4739-9399-4BB80C3EB8ED}.Development|Default.Build.0 = Development
+		{726C0CE8-C8E7-4739-9399-4BB80C3EB8ED}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {660600D9-80F0-4A2C-B6B9-2C79320F8844}
+	EndGlobalSection
+EndGlobal
