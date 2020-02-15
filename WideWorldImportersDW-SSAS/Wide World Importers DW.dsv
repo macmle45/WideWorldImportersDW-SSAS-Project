@@ -195,8 +195,8 @@
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="12" sourceattachpoint="39" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="19966" y="24392" />
-                    <point x="23319" y="24392" />
-                    <point x="23319" y="27170" />
+                    <point x="22719" y="24392" />
+                    <point x="22719" y="27170" />
                     <point x="26672" y="27170" />
                   </connector>
                 </ddscontrol>

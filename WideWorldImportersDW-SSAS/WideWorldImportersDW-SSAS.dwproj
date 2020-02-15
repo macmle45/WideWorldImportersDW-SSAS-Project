@@ -6,6 +6,12 @@
     <Name>WideWorldImportersDW-SSAS.database</Name>
     <FullPath>WideWorldImportersDW-SSAS.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Wide World Importers DW.ds</Name>
