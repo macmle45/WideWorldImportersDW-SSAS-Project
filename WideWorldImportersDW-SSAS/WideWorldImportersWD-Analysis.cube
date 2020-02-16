@@ -486,7 +486,24 @@
         <Attribute dwd:design-time-name="43385bf4-dad4-401d-93ee-a1d36e603d36">
           <AttributeID>City Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="c5f9a874-1b12-40f2-8695-de119a37f324">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d35df02e-c164-428f-b6d8-c844b6713c7d">
+          <AttributeID>State Province</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3848d2d8-fb0e-4eda-950c-087ba0222bcf">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="634a75ca-9de7-4302-895f-ff82d3cbde9e">
+          <AttributeID>Sales Territory</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="85ec7373-f797-47ff-9897-09c76364900f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="75d09a19-a359-45c4-9099-7379c9e6ada0">
       <ID>Customer</ID>
