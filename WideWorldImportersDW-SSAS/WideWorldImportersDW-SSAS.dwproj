@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>WWI_Sale.cube</Name>
-      <FullPath>WWI_Sale.cube</FullPath>
+      <Name>WideWorldImportersWD-Analysis.cube</Name>
+      <FullPath>WideWorldImportersWD-Analysis.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>WWI_Sale.partitions</Name>
-          <FullPath>WWI_Sale.partitions</FullPath>
+          <Name>WideWorldImportersWD-Analysis.partitions</Name>
+          <FullPath>WideWorldImportersWD-Analysis.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -24,16 +24,20 @@
       <FullPath>Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Customer.dim</Name>
-      <FullPath>Customer.dim</FullPath>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>City.dim</Name>
       <FullPath>City.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Employee.dim</Name>
-      <FullPath>Employee.dim</FullPath>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Stock Item.dim</Name>
+      <FullPath>Stock Item.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
