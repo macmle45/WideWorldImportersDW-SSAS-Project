@@ -664,6 +664,96 @@
       </Hierarchies>
     </Dimension>
   </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="835e7448-b678-4cad-9710-f167497e4489">
+      <ID>Perspective</ID>
+      <Name>Perspective A</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="273c69bf-0387-40b3-8d7b-b5036dc083ca">
+          <CubeDimensionID>City</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="94f93f62-617d-422a-9237-c495015b78be">
+              <AttributeID>City Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b005d74c-537b-441f-93d0-8e3f83f8e3bc">
+              <AttributeID>City</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="94e1e014-f11b-45ba-b6d6-e9b8132ae907">
+              <AttributeID>State Province</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1785b48c-1907-40bc-b7a5-5955ea1bde7d">
+              <AttributeID>Country</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a6967118-45d1-4449-8c4e-b703fcf2cecc">
+              <AttributeID>Sales Territory</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9f88480f-c333-44be-be50-3a39fefee676">
+              <AttributeID>Valid From</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f6144a39-6534-46c6-a06d-63095c6e3741">
+              <AttributeID>Valid To</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="70cb3f59-5bed-4f07-9b1c-354cd8b9f40c">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="f14cd2d8-f0a8-4bb5-ba3d-709c683537bc">
+          <CubeDimensionID>Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ab6a8103-5436-43fe-81be-9242ba55ee5e">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5a007c91-af2f-46fa-b8bb-9cf18752bacd">
+              <AttributeID>Customer</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2655a7cd-fa93-4964-9930-c89f98ea4972">
+              <AttributeID>Bill To Customer</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ab039b1f-5d92-422c-88e6-8a985781d1ba">
+              <AttributeID>Primary Contact</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="494ee492-5c34-46cc-bb17-fafc59b91590">
+              <AttributeID>Valid From</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="223f2dbf-2e81-420d-b1d8-d3fb526a06f7">
+              <AttributeID>Valid To</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="c7e659e0-43ae-416f-b14d-b8da8b30d61c">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="d0a471a7-c854-4ee6-973b-60bc1b44787f">
+          <MeasureGroupID>Order</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="001fa826-07a2-4264-913a-f4027b7ea85c">
+              <MeasureID>Quantity</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="513141d8-d48c-4900-bf48-091413a03fdf">
+          <MeasureGroupID>Sale</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="023c4f23-3787-4aba-8cb2-e478824a770f">
+              <MeasureID>Quantity - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="6c3b1425-cad8-41a8-8c15-310a4e1c0846">
+              <MeasureID>Profit</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+  </Perspectives>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="c45d0a39-9818-4966-8b5f-43dee36c044c">
       <ID>Order</ID>
@@ -889,6 +979,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="223bfba1-a885-4b31-bb65-6c05a8a3940d">
       <ID>Sale</ID>
@@ -1147,6 +1238,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="4431d98d-e623-455e-8796-6a12ba1c8e17">
       <ID>Stock Holding</ID>
@@ -1247,6 +1339,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="b330dc56-b25e-46c1-9f3f-86f722d86a29">
