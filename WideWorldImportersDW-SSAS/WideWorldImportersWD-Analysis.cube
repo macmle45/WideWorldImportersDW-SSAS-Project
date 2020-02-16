@@ -498,6 +498,12 @@
         <Attribute dwd:design-time-name="ff785f72-8a0f-4e87-a16c-7e1c6f34f902">
           <AttributeID>Sales Territory</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="93e32246-606e-4292-a142-d4f5d6362dbf">
+          <AttributeID>Valid From</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9ee7c3d-1d80-4369-8916-9de5ab32464b">
+          <AttributeID>Valid To</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="536a411d-7fbb-4f33-9d9d-fc3ab88bd930">
