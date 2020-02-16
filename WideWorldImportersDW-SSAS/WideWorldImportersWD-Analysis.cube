@@ -528,6 +528,12 @@
         <Attribute dwd:design-time-name="11250ddf-3e05-479c-8545-d6d337805bd5">
           <AttributeID>Primary Contact</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="ad529a5f-2e5c-42ae-9470-f58674ce90a2">
+          <AttributeID>Valid From</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b2be4cf-ea98-4722-b64c-dd46082b7069">
+          <AttributeID>Valid To</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="8dc0c82d-fd51-4ca9-b441-d9da5bc49374">
@@ -595,6 +601,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="f78b4aa0-fe27-4d36-8b23-e1c7937f866d">
           <AttributeID>Primary Contact</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5f155131-efb7-4289-8849-2f97571650d1">
+          <AttributeID>Valid From</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b6f6aeb-41f0-478c-a75a-fbf29d9a20fa">
+          <AttributeID>Valid To</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
