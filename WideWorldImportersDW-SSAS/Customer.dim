@@ -171,6 +171,7 @@
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="d9f4d3e3-5085-4ed1-89e6-5a16133dbf25">
           <AttributeID>Category</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
           <Name>Category</Name>
         </AttributeRelationship>
       </AttributeRelationships>
